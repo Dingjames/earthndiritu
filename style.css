@@ -1,0 +1,19 @@
+html, body, #viewDiv {
+  background-color: black;
+  padding: 0;
+  margin: 10;
+  height: 100%;
+  width: 100%;
+}
+
+#floater {
+  position: absolute;
+  z-index: 99;
+  top: 10px;
+  right: 5px;
+  background-color: rgba(0, 200, 200, 0.5);
+  font-family: Monospace;
+  font-size: 24px;
+  padding: 4px;
+  border-radius: 4px;
+}
